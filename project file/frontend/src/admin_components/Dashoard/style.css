@@ -1,0 +1,68 @@
+/* Dashboard.css */
+
+.dashboard {
+  padding: 2rem;
+  margin-top: 10vh;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 24px;
+}
+
+/* Card styling */
+.card {
+  background-color: #6e6d69;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #dcd8c7; /* highlight title */
+  margin-bottom: 0.75rem;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #e5e5e5;
+}
+
+/* Button styling */
+.card .btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.card .btn-primary {
+  background-color: #4e4a3b;
+  border: none;
+}
+
+.card .btn-primary:hover {
+  background-color: #615d4e;
+}
+
+.card .btn-success {
+  background-color: #4e4a3b;
+  border: none;
+}
+
+.card .btn-success:hover {
+  background-color: #615d4e;
+}
